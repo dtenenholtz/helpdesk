@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Hello {{ name }}</title>
+</head>
+<body>
+  {% if name %}
+  <p>{{ name }} you are my favorite {{ role }}<p>
+  {% else %}
+  <h1>This did not work</h1>
+  {% endif %}
+  <form method="get">
+    <label>Name
+    <input name="name" />
+    </label>
+  </form>
+</body>
+</html>
